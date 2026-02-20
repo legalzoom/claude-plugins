@@ -1,0 +1,18 @@
+{
+  "name": "legalzoom-marketplace",
+  "owner": {
+    "name": "LegalZoom",
+    "email": "engineering@legalzoom.com"
+  },
+  "plugins": [
+    {
+      "name": "legalzoom",
+      "source": "./plugins/legalzoom",
+      "description": "AI-powered business legal assistance with contract review and attorney consultation",
+      "version": "1.0.0",
+      "author": {
+        "name": "LegalZoom"
+      }
+    }
+  ]
+}
