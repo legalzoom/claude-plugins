@@ -1,0 +1,21 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "legalzoom",
+  "displayName": "LegalZoom",
+  "version": "0.1.0",
+  "description": "Review contracts with AI, explore business formation information, and request consultations with independent attorneys through LegalZoom.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Review this contract and flag terms that need attention",
+    "Help me request an attorney consultation about my business",
+    "Find LegalZoom information comparing an LLC and a corporation"
+  ],
+  "author": {
+    "name": "LegalZoom",
+    "url": "https://www.legalzoom.com"
+  },
+  "homepage": "https://github.com/legalzoom/claude-plugins/tree/main/plugins/legalzoom-antigravity",
+  "repository": "https://github.com/legalzoom/claude-plugins",
+  "license": "Proprietary",
+  "keywords": ["legalzoom", "contracts", "business", "formation", "attorney"]
+}
