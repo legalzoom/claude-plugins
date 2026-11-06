@@ -1,6 +1,22 @@
-# LegalZoom Claude Plugins
+# LegalZoom Plugins
 
 Internal Claude Code plugin marketplace for LegalZoom.
+
+An Antigravity package is also available for local testing in
+[`plugins/legalzoom-antigravity`](plugins/legalzoom-antigravity/README.md).
+It includes its own `plugin.json`, Gemini MCP configuration, logo, and adapted
+contract review and attorney consultation skills. The existing Claude package
+and marketplace registration remain separate.
+
+From this repository's root:
+
+```sh
+agy plugin validate --strict ./plugins/legalzoom-antigravity
+agy plugin install ./plugins/legalzoom-antigravity
+```
+
+See the [Antigravity marketplace preparation checklist](docs/antigravity-marketplace.md)
+for validation evidence and the remaining release checks.
 
 ## Installation
 

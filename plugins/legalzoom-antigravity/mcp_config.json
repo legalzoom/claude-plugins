@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "legalzoom": {
+      "serverUrl": "https://www.legalzoom.com/mcp/gemini/v1"
+    }
+  }
+}
